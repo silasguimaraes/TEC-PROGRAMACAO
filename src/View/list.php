@@ -103,7 +103,7 @@
 <body>
 <div class="container">
     <h1>Task Master (MVC Edition)</h1>
-   
+
     <?php if (isset($error)): ?>
         <div class="error"><?php echo htmlspecialchars($error, ENT_QUOTES, 'UTF-8'); ?></div>
     <?php endif; ?>
